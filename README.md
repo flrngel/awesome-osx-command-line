@@ -361,6 +361,11 @@ defaults write -g NSAutomaticSpellingCorrectionEnabled -bool true
 defaults read -g NSAutomaticSpellingCorrectionEnabled
 ```
 
+#### Set Keyboard repeating super fast
+```bash
+defaults write NSGlobalDomain KeyRepeat -int 0
+```
+
 
 ## Media
 
